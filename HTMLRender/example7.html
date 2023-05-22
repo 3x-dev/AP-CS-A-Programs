@@ -1,0 +1,71 @@
+<html>
+<body>
+
+This is HTML your program should tokenize and render.
+Be sure not to go over 80 characters on a line or the
+text will go to the right and I will have to
+scroll the window.
+
+<P>Handling paragraphs
+  even if they are different
+            lines.</P><p> This new
+ paragraph starts in middle of the line.
+ </p>
+ 
+ Here comes a horizontal rule
+ <HR>
+ 
+ Here comes a break.<br>Then break with punctuation!<br>
+
+Start with plain text, then <i>italic words</i>
+and <B>bold statements</B>.
+
+<p><b>We can have bold paragraphs too, that run on for
+a while and will have to go to the next line if it gets
+too long.</b></p>
+<br><p>we want
+to have <i>italic
+statements that could go to the next line, since
+lines can get long and need to wrap-around
+several times</i>.</p>
+
+Of course, we quote <q>Mr Greenstein</q> briefly.
+<br>
+
+Before a comment?<!--Here is a comment
+on several lines
+that ends here.--> Yes! And outside again!
+
+<br>
+Now for something new!!!!
+<H1>H1 Huge header ;-)</h1>
+<h2>H2 Large header :-)</H2>
+<h3>H3 Bold header that goes on and on
+from one line, to the other, without any stopping; we could stop but
+I want to test the length of the line.
+</h3>
+<h4>H4 Bold medium header ;-)</h4>
+<h5>H5 Bold small header!!!</h5>
+<h6>H6 Bold tiny header?!?</h6>
+
+Let us try some numbers:
+<br>
+345, -198, 4e02, 4.32e2, and -1.543e-23
+<br>
+Do not forget preformatted text starting here.<br>
+<pre>
+    public static Scanner openToRead(String fileName) {
+        Scanner input = null;
+        try {
+            input = new Scanner(new File(fileName));
+        } catch (FileNotFoundException e) {
+            System.err.println("ERROR: Cannot open " + fileName + " for reading.");
+            System.exit(-1);
+        }
+        return input;
+    }
+</pre>
+
+This     is 	the		 end 	of		 the file()</body>
+
+</html>
